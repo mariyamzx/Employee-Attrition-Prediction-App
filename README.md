@@ -66,7 +66,8 @@ pip install -r requirements.txt
 streamlit run app/main.py
 
 ## 📸 App Preview
-(You can insert a screenshot or GIF preview here)
+<img width="1891" height="882" alt="image" src="https://github.com/user-attachments/assets/a366e27a-a2ab-4019-8f5b-9a18944012e0" />
+
 
 ## 🔮 Future Improvements
 Add more model options (Decision Trees, Random Forest) for comparison.
