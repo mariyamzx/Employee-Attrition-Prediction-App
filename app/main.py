@@ -77,11 +77,11 @@ def add_sidebar():
             "Technical Degree", "Marketing"
         ]),
         "YearsSinceLastPromotion": st.sidebar.number_input("Years Since Last Promotion", min_value=0, max_value=40, value=1),
-        "MonthlyRate": st.sidebar.number_input("Monthly Rate", min_value=1000, max_value=30000, value=10000),
-        "DailyRate": st.sidebar.number_input("Daily Rate", min_value=100, max_value=2000, value=800),
-        "StockOptionLevel": st.sidebar.selectbox("Stock Option Level", [0, 1, 2, 3]),
-        "Age": st.sidebar.number_input("Age", min_value=18, max_value=65, value=30),
-        "MonthlyIncome": st.sidebar.number_input("Monthly Income", min_value=1000, max_value=20000, value=5000),
+        "MonthlyRate": st.sidebar.number_input("Monthly Rate (USD/month)", min_value=1000, max_value=30000, value=10000),
+        "DailyRate": st.sidebar.number_input("Daily Rate (USD/day)", min_value=100, max_value=2000, value=800),
+        "StockOptionLevel": st.sidebar.selectbox("Stock Option Level (0–3)", [0, 1, 2, 3]),
+        "Age": st.sidebar.number_input("Age (Years)", min_value=18, max_value=65, value=30),
+        "MonthlyIncome": st.sidebar.number_input("Monthly Income (USD/month)", min_value=1000, max_value=20000, value=5000),
 
         # Defaults for missing features
         "TrainingTimesLastYear": 3,
