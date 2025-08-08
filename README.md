@@ -1,21 +1,21 @@
 # 🏢 Employee Attrition Prediction App  
 
-An interactive *Streamlit* web app that predicts whether an employee is likely to leave the company — powered by a *custom Logistic Regression model* that outperformed sklearn’s implementation.  
+An interactive **Streamlit** web app that predicts whether an employee is likely to leave the company — powered by a **custom Logistic Regression model** that outperformed sklearn’s implementation.  
 
 ---
 
 ## 🚀 Features  
-- *Custom Logistic Regression: Implemented from scratch using the **Sigmoid* function and *Gradient Descent*.  
-- *Data Preprocessing Pipeline*: Includes outlier capping, encoding categorical variables, and feature scaling.  
-- *Feature Engineering*: Selection of the top contributing features to improve model interpretability and performance.  
-- *EDA (Exploratory Data Analysis)*: Distribution analysis, correlation checks, and identification of key attrition drivers.  
-- *Interactive Predictions*: Input employee details in the app and instantly see the attrition prediction — with visuals & GIFs.  
-- *Clean, Intuitive UI*: Built with Streamlit, styled for a professional look (including dark mode compatibility).  
+- **Custom Logistic Regression**: Implemented from scratch using the **Sigmoid** function and **Gradient Descent**.  
+- **Data Preprocessing Pipeline**: Includes outlier capping, encoding categorical variables, and feature scaling.  
+- **Feature Engineering**: Selection of the top contributing features to improve model interpretability and performance.  
+- **EDA (Exploratory Data Analysis)**: Distribution analysis, correlation checks, and identification of key attrition drivers.  
+- **Interactive Predictions**: Input employee details in the app and instantly see the attrition prediction — with visuals & GIFs.  
+- **Clean, Intuitive UI**: Built with Streamlit, styled for a professional look (including dark mode compatibility).  
 
 ---
 
 ## 📊 Dataset  
-- Sourced from an Employee Attrition dataset (IBM HR Analytics-style).  
+- Sourced from kaggle,an Employee Attrition dataset (IBM HR Analytics-style).  
 - Contains employee demographic, role, and performance data.  
 - Target variable: *Attrition* (Yes / No).  
 
