@@ -22,12 +22,12 @@ An interactive *Streamlit* web app that predicts whether an employee is likely t
 ---
 
 ## ⚙ Tech Stack  
-- *Python* 🐍
-- *Matplotlib and seaborn* for eda
-- *Streamlit* for web interface  
-- *Scikit-learn* (for preprocessing tools)  
-- *Pandas & NumPy* for data handling  
-- *Custom ML Implementation: Logistic Regression from scratch  (using **gradient descent* and *sigmoid function*)
+- **Python** 🐍
+- **Matplotlib and seaborn** for eda
+- **Streamlit** for web interface  
+- **Scikit-learn** (for preprocessing tools)  
+- **Pandas & NumPy** for data handling  
+- **Custom ML Implementation**: Logistic Regression from scratch  (using **gradient descent** and **sigmoid function**)
 
 ---
 
@@ -64,17 +64,18 @@ pip install -r requirements.txt
 ## ▶ Usage
 
 streamlit run app/main.py
+## 🚀 Live Demo:
+Try out the Employee Attrition Prediction App here →
+https://your-app-name.streamlit.app
 
 ## 📸 App Preview
 <img width="1891" height="882" alt="image" src="https://github.com/user-attachments/assets/a366e27a-a2ab-4019-8f5b-9a18944012e0" />
 
 
 ## 🔮 Future Improvements
-Add more model options (Decision Trees, Random Forest) for comparison.
+Add more model options (Decision Trees, Random Forest, xgboost ,adaboost) for comparison.
 
 Improve UI with more visual analytics.
 
-Deploy online via Streamlit Cloud or Hugging Face Spaces.
-
 ## 👨‍💻 Author
-Developed by *@mariyamzx*
+Developed by **@mariyamzx**
