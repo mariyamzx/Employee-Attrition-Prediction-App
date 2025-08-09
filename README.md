@@ -73,7 +73,7 @@ https://your-app-name.streamlit.app
 
 
 ## 🔮 Future Improvements
-Add more model options (Decision Trees, Random Forest, xgboost ,adaboost) for comparison.
+Add more model options (Decision Trees, Random Forest, xgboost ,adaboost etc) for comparison and to find the model that predicts best.
 
 Improve UI with more visual analytics.
 
